@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xeojkjee" method="post" class="form">
+        <h2>Please Sign In</h2>
+        <div>
+            <input type="email" id="email" name="email" required class="email" placeholder="john@gmail.com">
+        </div>    
+        <div>
+            <input type="password" name="password" id="password" required class="password" minlength="3" maxlength="12">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Remember Me</label>
+        </div> 
+        <input type="submit" value="Sign In" class="btn">
+    </form>
+</body>
+</html>
